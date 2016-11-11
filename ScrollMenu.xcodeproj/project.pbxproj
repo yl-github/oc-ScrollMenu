@@ -232,11 +232,12 @@
 		793000881DCC52EF0085B216 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = YL;
 				TargetAttributes = {
 					7930008F1DCC52EF0085B216 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DSU3LF2X7W;
 						ProvisioningStyle = Automatic;
 					};
 					793000A81DCC52EF0085B216 = {
@@ -382,6 +383,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -429,6 +431,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -456,8 +459,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DSU3LF2X7W;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ScrollMenu/Header.h";
 				INFOPLIST_FILE = ScrollMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yl.ScrollMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -468,8 +473,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DSU3LF2X7W;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ScrollMenu/Header.h";
 				INFOPLIST_FILE = ScrollMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yl.ScrollMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -541,6 +548,7 @@
 				793000BF1DCC52EF0085B216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		793000C01DCC52EF0085B216 /* Build configuration list for PBXNativeTarget "ScrollMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +557,7 @@
 				793000C21DCC52EF0085B216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		793000C31DCC52EF0085B216 /* Build configuration list for PBXNativeTarget "ScrollMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +566,7 @@
 				793000C51DCC52EF0085B216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
